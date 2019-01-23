@@ -24,5 +24,5 @@ package() {
   install -vDm644 $srcdir/$pkgname.png $pkgdir/usr/share/pixmaps/$pkgname.png
 
   mkdir -p "$pkgdir/usr/bin/"
-  ln -sf "/opt/Tusk/tusk-app" "$pkgdir/usr/bin/tusk-app"
+  ln -sf "/opt/Tusk/tusk" "$pkgdir/usr/bin/tusk"
 }
